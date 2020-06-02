@@ -1,0 +1,53 @@
+{
+  "sffgfg": {
+    "1": {
+      "name": "sd",
+      "enabled": "TRUE",
+      "desc": "sd",
+      "testcase_id": "sdf"
+    },
+    "2": {
+      "name": "dgf",
+      "enabled": "TRUE",
+      "desc": "dfg",
+      "testcase_id": "dfg"
+    },
+    "scenario_count": 2
+  },
+  "sd": {
+    "1": {
+      "screen_name": "SIGN_IN_SCREEN",
+      "name": "SIGNIN_EMAIL_TEXT",
+      "action": "text_input",
+      "value": "USERNAME",
+      "cond_exec": "enabled"
+    },
+    "stepcount": 1
+  },
+  "dgf": {
+    "1": {
+      "screen_name": "SIGN_UP_SCREEN",
+      "name": "SIGNUP_PASSWORD_TEXT",
+      "action": "username_text_input",
+      "value": "OLD_PASSWORD",
+      "cond_exec": "enabled",
+      "skipflag": "enabled"
+    },
+    "2": {
+      "screen_name": "ADD_A_DEVICE_SCREEN",
+      "name": "I_DONT_HAVE_DEVICE_BACK_BUTTON",
+      "action": "new_user",
+      "value": "OLD_PASSWORD",
+      "cond_exec": "enabled",
+      "skipflag": "enabled"
+    },
+    "3": {
+      "screen_name": "PASSWORD_SCREEN",
+      "name": "PASSWORD_CANCEL_BUTTON",
+      "action": "logout_button",
+      "value": "NEW_PASSWORD",
+      "skipflag": "enabled"
+    },
+    "stepcount": 3
+  }
+}

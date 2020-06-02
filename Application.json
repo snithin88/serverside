@@ -1,0 +1,7 @@
+{
+    "application" : {
+            "parkjockey_hangtag": ["android", "ios"],
+            "tile": ["android", "ios"],
+            "parkjockey_web": ["website"]
+    }
+}
